@@ -42,7 +42,12 @@ body {
   padding: 10px 15px;
   border-radius: 5px;
   border: 2px solid white;
-  background: transparent;
+  background-color: transparent;
   color: white;
   margin-bottom: 2em;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.relative .content button:hover {
+  background: linear-gradient(to left, rgb(27, 179, 223), rgb(1, 10, 79));
 }/*# sourceMappingURL=style.css.map */

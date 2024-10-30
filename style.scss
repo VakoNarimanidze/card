@@ -38,13 +38,19 @@ body{
             width: 85%;
             padding: 1em 0;
         }
-        button{
+        button {
             padding: 10px 15px;
             border-radius: 5px;
             border: 2px solid $text-color;
-            background: transparent;
+            background-color: transparent;
             color: $text-color;
             margin-bottom: 2em;
-        }
+            cursor: pointer;
+            transition: background 0.5s; 
+            &:hover {
+              background: linear-gradient(to left, rgb(27, 179, 223), rgb(1, 10, 79));
+            }
+          }
+          
     }
 }
